@@ -21,8 +21,8 @@ Then add **hubot-fucking-weather** to your `external-scripts.json`:
 ## Sample Interaction
 
 ```
-user1>> hubot hello
-hubot>> hello!
+user1>> hubot weather 53818
+hubot>> IT'S FUCKING NICE! - Platteville : 73.4 (low: 73.4 high:73.4)
 ```
 
 ## NPM Module
