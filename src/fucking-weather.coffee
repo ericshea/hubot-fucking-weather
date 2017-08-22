@@ -32,7 +32,7 @@ module.exports = (robot) ->
 
     getWeather = (url, res) ->
         if APIKEY == null
-            res.send "HUBOT_OWM_APIKEY environment varibale is not provided for hubot-weather"
+            res.send "HUBOT_OWM_APIKEY environment variable is not provided for hubot-fucking-weather"
             return
 
         robot.http(url)
