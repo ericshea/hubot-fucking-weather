@@ -13,6 +13,7 @@
 
 APIKEY = process.env.HUBOT_OWM_APIKEY or null
 
+# Madison, WI
 defaultZipCode = "53703"
 openWeatherApiVersion = "2.5"
 openWeatherApiUrl = "http://api.openweathermap.org/data/"
