@@ -1,7 +1,7 @@
 {
   "name": "hubot-fucking-weather",
   "description": "A hubot script that tells you the fucking weather.",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": "ericshea <eshea@akitabox.com>",
   "license": "MIT",
   "keywords": "hubot, hubot-scripts, weather, fuckingweather",
