@@ -12,7 +12,7 @@ describe 'fucking-weather', ->
   afterEach ->
     @room.destroy()
 
-  it 'responds to hello', ->
+  it 'responds to ping', ->
     @room.user.say('ping', '@hubot PONG').then =>
       expect(@room.messages).to.eql [
         ['ping', '@hubot PONG']
