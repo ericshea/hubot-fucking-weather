@@ -13,15 +13,7 @@ describe 'fucking-weather', ->
     @room.destroy()
 
   it 'responds to hello', ->
-    @room.user.say('alice', '@hubot hello').then =>
+    @room.user.say('ping', '@hubot PONG').then =>
       expect(@room.messages).to.eql [
-        ['alice', '@hubot hello']
-        ['hubot', '@alice hello!']
-      ]
-
-  it 'hears orly', ->
-    @room.user.say('bob', 'just wanted to say orly').then =>
-      expect(@room.messages).to.eql [
-        ['bob', 'just wanted to say orly']
-        ['hubot', 'yarly']
+        ['ping', '@hubot PONG']
       ]
