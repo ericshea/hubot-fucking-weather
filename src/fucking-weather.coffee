@@ -5,8 +5,8 @@
 #   None
 #
 # Commands:
-#   hubot fucking weather - the weather for default zip code 53703
-#   hubot fucking weather zipCode - the weather for inputted zipCode
+#   hubot weather - the weather for default zip code 53703
+#   hubot weather zipCode - the weather for inputted zipCode
 #
 # Author:
 #   Eric Shea <ericshea00@gmail.com>
