@@ -65,7 +65,7 @@ module.exports = (robot) ->
         remark = switch
             when temp <= 0 then "IT'S REALLY #{middleWord}COLD!"
             when temp < 32 and temp > 0 then "IT'S #{middleWord}COLD!"
-            when temp < 60 and temp > 32 then "IT'S #{middleWord}CHILLI!"
+            when temp < 60 and temp > 32 then "IT'S #{middleWord}CHILLY!"
             when temp < 80 and temp > 60 then "IT'S #{middleWord}NICE!"
             when temp < 100 and temp > 80 then "IT'S #{middleWord}HOT!"
             when temp > 100 then "IT'S REALLY #{middleWord}HOT!"
