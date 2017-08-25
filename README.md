@@ -18,6 +18,21 @@ Then add **hubot-fucking-weather** to your `external-scripts.json`:
 ]
 ```
 
+## Configuration
+
+Required environment variables:
+```
+HUBOT_OWM_APIKEY - OpenWeatherMap api key (http://openweathermap.org/api)
+```
+
+Optional environment variables:
+```
+HUBOT_OWM_UNITS - Units used for api call. (default = imperial, other options = metric and standard)
+HUBOT_OWM_SWEARING - Is swearing turned on or off. (default = off, options = on)
+HUBOT_OWM_SWEAR_WORD - The swear word to use if HUBOT_OWM_SWEARING is on. (default = FUCKING)
+HUBOT_OWM_ZIP - Default zip code to use in api call when none specified. (default = 53703)
+```
+
 ## Sample Interaction
 
 ```
